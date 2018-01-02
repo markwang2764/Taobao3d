@@ -1,0 +1,17 @@
+body{
+  background:url('../img/bg.jpg')
+}
+.container{
+  margin: 0 auto 0 auto;
+  width: 8.0625rem;
+  perspective: 20rem;
+}
+#box{
+  transform-style: preserve-3d;
+  height:100%;
+}
+#box>div{
+  position: absolute;
+  width: 8.0625rem;
+  height:73.123rem;
+}
